@@ -2,8 +2,8 @@ import React from "react";
 import bg1 from "../../assets/bg1.png";
 import navbg from "../../assets/navbg2.jpeg";
 import { motion } from "motion/react";
-import myimage1 from '../../assets/myimage1.jpeg'
-
+import myimage1 from "../../assets/myimage1.jpeg";
+import mybgnew from "../../assets/mybgnew.jpeg";
 
 import Image from "next/image";
 import { infoList, toolsData } from "@/public/assets";
@@ -46,7 +46,7 @@ const About = ({ isDarkMode }) => {
           transition={{ duration: 0.6 }}
           className="w-64 sm:w-80 rounded-3xl max-w-none"
         >
-          <Image src={myimage1} alt="" className="w-full rounded-3xl" />
+          <Image src={mybgnew} alt="" className="w-full rounded-3xl items-center" />
         </motion.div>
         <motion.div
           initial={{ opacity: 0 }}
@@ -55,13 +55,25 @@ const About = ({ isDarkMode }) => {
           className="flex-1"
         >
           <p className="mb-10 max-w-2xl font-Ovo">
-          Hello! I’m Praveen Kumar Maddela, a passionate Full Stack Web Developer with over 7 years of hands-on experience in building dynamic, user-friendly web applications. I hold a Bachelor’s degree in Electronics and Communication Engineering (B.Tech in ECE), which has given me a solid foundation in both the technical and analytical aspects of development.
-
-Currently based in Berlin, Germany, I’m fluent in English and hold an A1 proficiency in German, which allows me to communicate effectively in multicultural environments. I am living in Germany on the Opportunity Card visa and am actively seeking exciting new opportunities to contribute my skills and continue growing as a developer.
-
-With a diverse background in web development, I specialize in both front-end and back-end technologies, and I’m always eager to learn and adapt to the latest industry trends and tools. Whether it’s creating engaging user interfaces or optimizing server-side performance, I’m committed to delivering high-quality, scalable solutions.
-
-I am always excited to collaborate, share knowledge, and work on innovative projects. Feel free to connect with me to discuss potential opportunities or just to share ideas!
+            Hello! I’m Praveen Kumar Maddela, a passionate Full Stack Web
+            Developer with over 7 years of hands-on experience in building
+            dynamic, user-friendly web applications. I hold a Bachelor’s degree
+            in Electronics and Communication Engineering (B.Tech in ECE), which
+            has given me a solid foundation in both the technical and analytical
+            aspects of development. Currently based in Berlin, Germany, I’m
+            fluent in English and hold an A1 proficiency in German, which allows
+            me to communicate effectively in multicultural environments. I am
+            living in Germany on the Opportunity Card visa and am actively
+            seeking exciting new opportunities to contribute my skills and
+            continue growing as a developer. With a diverse background in web
+            development, I specialize in both front-end and back-end
+            technologies, and I’m always eager to learn and adapt to the latest
+            industry trends and tools. Whether it’s creating engaging user
+            interfaces or optimizing server-side performance, I’m committed to
+            delivering high-quality, scalable solutions. I am always excited to
+            collaborate, share knowledge, and work on innovative projects. Feel
+            free to connect with me to discuss potential opportunities or just
+            to share ideas!
           </p>
           <motion.ul
             initial={{ opacity: 0 }}
@@ -75,11 +87,7 @@ I am always excited to collaborate, share knowledge, and work on innovative proj
                 className="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover/50"
                 key={index}
               >
-                <Image
-                  className=" w-7 mt-3 "
-                  src={icon}
-                  alt={title}
-                />
+                <Image className=" w-7 mt-3 " src={icon} alt={title} />
                 <h3 className="my-4 font-semibold text-gray-700 dark:text-white ">
                   {title}
                 </h3>
@@ -113,7 +121,6 @@ I am always excited to collaborate, share knowledge, and work on innovative proj
                 <Image src={tool} alt="tool" className="w-5 sm:w-7" />
               </motion.li>
             ))}
-            
           </motion.ul>
         </motion.div>
       </motion.div>

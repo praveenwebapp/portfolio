@@ -5,6 +5,7 @@ import Image from "next/image";
 import navbg from "../../assets/navbg2.jpeg";
 import { motion } from "motion/react";
 import uparrow from '../../assets/uparrow.png'
+import tick from '../../assets/tick.png'
 
 
 
@@ -69,7 +70,7 @@ transition={{ delay:0.5 , duration: 0.5 }}
                 <p className="text-sm text-gray-700">{project.description}</p>
               </div>
               <div className="border rounded-full border-black w-9 aspect-square flex items-center justify-center shadow-[2px_2px_2px_0_#000] group-hover:bg-lime-300 transition">
-                <Image src={bg1} alt="sendicn" className="w-5" />
+                <Image src={tick} alt="sendicn" className="w-5" />
               </div>
             </div>
           </motion.div>
