@@ -53,7 +53,7 @@ const Navbar = ({isDarkMode , setIsDarkMode}) => {
           </li>
           <li>
             <a className="font-Ovo" href="#About">
-              About me
+              About Me
             </a>
           </li>
           <li>
@@ -63,7 +63,7 @@ const Navbar = ({isDarkMode , setIsDarkMode}) => {
           </li>
           <li>
             <a className="font-Ovo" href="#work">
-              My work
+              My Work
             </a>
           </li>
           <li>
@@ -104,7 +104,7 @@ const Navbar = ({isDarkMode , setIsDarkMode}) => {
             </li>
             <li>
               <a onClick={closeMenu} className="font-Ovo" href="#About">
-                About me
+                About Me
               </a>
             </li>
             <li>
@@ -114,7 +114,7 @@ const Navbar = ({isDarkMode , setIsDarkMode}) => {
             </li>
             <li>
               <a onClick={closeMenu} className="font-Ovo" href="#work">
-                My work
+                My Work
               </a>
             </li>
             <li>

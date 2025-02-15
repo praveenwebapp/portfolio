@@ -32,7 +32,7 @@ const About = ({ isDarkMode }) => {
         transition={{ duration: 0.5, delay: 0.5 }}
         className="text-center text-5xl font-Ovo"
       >
-        About me
+        About Me
       </motion.h2>
       <motion.div
         nitial={{ opacity: 0 }}
