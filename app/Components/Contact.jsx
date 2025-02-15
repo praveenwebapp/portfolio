@@ -94,7 +94,7 @@ initial={{ y:100,opacity: 0 }}
 whileInView={{ y:0,opacity: 1 }}
 transition={{ delay : 1.3 , duration: 0.6 }}
         
-        className='w-full p-4 outline-none border-[0.5px] border-gray-400 rounded-md bg-white mb-6  dark:bg-darkHover/30 dark:border-white/90 ' rows="6" placeholder='Enter your message' required name='Message'></motion.textarea>
+        className='w-full p-4 outline-none border-[0.5px] border-gray-400 rounded-md bg-white mb-6  dark:bg-darkHover/30 dark:border-white/90 ' rows="6" placeholder='Enter your Message' required name='Message'></motion.textarea>
         <motion.button 
 
         whileHover={{scale:1.05}}
