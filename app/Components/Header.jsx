@@ -52,7 +52,7 @@ Web Services (AWS), JavaScript, Git, Jira, TypeScript among others
           className="px-10 py-3 border  border-white rounded-full  bg-orange-500 text-white  flex items-center gap-2 dark:bg-white dark:text-black
           "
         >
-          Contact me <Image src={contact_arrow} alt="" className="w-4" />
+          Contact Me <Image src={contact_arrow} alt="" className="w-4" />
         </motion.a>
         <motion.a
         initial={{ y: 30, opacity: 0 }}
@@ -62,7 +62,7 @@ Web Services (AWS), JavaScript, Git, Jira, TypeScript among others
           download
           className="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white dark:text-black"
         >
-          my Resume <Image src={download} alt="" className="w-4" />
+          My Resume <Image src={download} alt="" className="w-4" />
         </motion.a>
       </div>
     </div>
