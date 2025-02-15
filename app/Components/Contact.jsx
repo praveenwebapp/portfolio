@@ -48,7 +48,7 @@ initial={{ y:20,opacity: 0 }}
 whileInView={{ y:0,opacity: 1 }}
 transition={{ delay : 0.5 , duration: 0.5 }}
       
-      className="text-center text-5xl font-Ovo">Get In touth</motion.h2>
+      className="text-center text-5xl font-Ovo">Get In touch</motion.h2>
       <motion.p
       
 
