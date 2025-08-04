@@ -9,7 +9,7 @@ import hello from '../../assets/hello.png'
 
 const Header = () => {
   return (
-    <div className="w-11/12 max-w-3xl text-center mx-auto  flex flex-col items-center justify-center gap-4"  style={{ height: '85vh' }} >
+    <div className="w-11/12 max-w-3xl text-center mx-auto  flex flex-col items-center justify-center gap-4"  style={{ height: '100vh' }} >
       {/* <motion.div
         initial={{ scale: 0 }}
         whileInView={{ scale: 1 }}
