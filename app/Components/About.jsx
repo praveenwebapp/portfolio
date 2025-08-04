@@ -52,9 +52,10 @@ const About = ({ isDarkMode }) => {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ delay: 0.8, duration: 0.6 }}
-          className="flex-1"
+          className="flex-1 w-full"
+          
         >
-          <p className="mb-10 max-w-2xl font-Ovo">
+          <p className="mb font-Ovo">
             Hello! I’m Praveen Kumar Maddela, a passionate Full Stack Web
             Developer with over 7 years of hands-on experience in building
             dynamic, user-friendly web applications. I hold a Bachelor’s degree
