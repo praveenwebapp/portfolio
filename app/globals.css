@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 *{
   font-family: Outfit;
 }
@@ -9,3 +10,37 @@
 html {
   scroll-behavior: smooth;
 }
+
+
+/* ===== Meaningful Android breakpoints ===== */
+/* ≤360px very small phones */
+@media (max-width: 360px) {
+.rounded-full{
+  width: 1px;
+  background:red;
+}
+
+}
+
+/* ≤480px most phones portrait */
+@media (max-width: 480px) {
+  .container { width: min(100% - 24px, var(--maxw)); }
+}
+
+/* ≥600px large phones / landscape */
+@media (min-width: 600px) {
+  .grid-2 { grid-template-columns: repeat(2, 1fr); }
+  .grid-3 { grid-template-columns: repeat(3, 1fr); }
+}
+
+/* ≥768px tablets portrait */
+@media (min-width: 768px) {
+  .layout { display: grid; grid-template-columns: 260px 1fr; gap: var(--space); }
+}
+
+/* ≥1024px tablets landscape / small laptops */
+@media (min-width: 1024px) {
+  :root { --font: 17px; }
+}
+
+

@@ -11,6 +11,9 @@ import namelogofordark from '../../assets/namelogofordark.png'
 import namelogoforbright from '../../assets/namelogoforbright.png'
 import contactme from '../../assets/right-arrowwhite.png'
 import contactmee from '../../assets/mail.png'
+import menu from '../../public/hamburger.png'
+import menu1 from '../../public/menu.png'
+import close from '../../public/close.png'
 
 
 
@@ -87,7 +90,7 @@ const Navbar = ({isDarkMode , setIsDarkMode}) => {
 
           </a>
           <button onClick={openMenu} className="block md:hidden ml-3">
-            <Image src={isDarkMode? navbg : bg1} alt="" className="w-6" />
+            <Image src={isDarkMode? menu1 : menu} alt="" className="w-6" />
           </button>
           {/* { mobile menu } */}
 
@@ -96,7 +99,7 @@ const Navbar = ({isDarkMode , setIsDarkMode}) => {
             className="flex md:hidden flex-col gap-4 py-20 px-10 fixed -right-64 top-0 bottom-0 w-64 h-screen bg-rose-50 transition duration-500 dark:bg-darkHover dark:"
           >
             <div onClick={closeMenu} className="absolute right-6 top-6">
-              <Image src={isDarkMode?navbg:bg1} alt="" className="w-5 cursor-pointer " />
+              <Image src={isDarkMode?close:close} alt="" className="w-5 cursor-pointer " />
             </div>
             <li>
               <a onClick={closeMenu} className="font-Ovo" href="#top">
