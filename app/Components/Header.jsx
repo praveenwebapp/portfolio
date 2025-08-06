@@ -45,17 +45,12 @@ const Header = () => {
         className=" mx-w-2xl mx-auto font-Ovo"
       >
         {" "}
-        I’m a Full-Stack Developer with around 7 years of experience across
-        front-end, back-end, and mobile development. I specialize in building
-        clean, responsive interfaces using React.js, AngularJS, and React
-        Native, and have worked on scalable backend services using Node.js,
-        Express.js, and MongoDB. I’m skilled in TypeScript, JavaScript, and
-        write reliable tests with Jest and Cypress. I follow Scrum practices,
-        understand Azure fundamentals, and handle deployments through Vercel,
-        Netlify, and GitHub Pages. Whether it’s crafting smooth user
-        experiences, integrating APIs, or deploying full-stack apps, I enjoy
-        turning ideas into well-built, maintainable products and love
-        collaborating with teams to build something meaningful.
+        I'm a Full-Stack Developer with 7 years of experience across frontend
+        (React.js, AngularJS, React Native) and backend (Node.js, Express,
+        MongoDB). I work with TypeScript, JavaScript, and write tests using Jest
+        and Cypress. I deploy apps via AWS, Azure, Vercel, and Netlify, and
+        collaborate on UI/UX using Figma and Adobe XD. I follow agile practices
+        and enjoy building clean, scalable, and user-focused applications.
       </motion.p>
 
       <div className="flex flex-col sm:flex-row items-center gap-4 mt-4 ">
