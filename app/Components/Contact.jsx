@@ -59,7 +59,7 @@ transition={{ delay : 0.7 , duration: 0.5 }}
       className="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">
         Thank you for visiting my website! I am currently seeking exciting job opportunities in the web development field, as well as freelance projects where I can contribute my skills. If you are looking for a web developer, have a project in mind, or can provide any referrals, I’d love to connect with you!
 
-Feel free to reach out to me through the contact form, or you can email me directly at praveenmaddelafullstack@gmail.com .
+Feel free to reach out to me through the contact form, or you can email me directly at praveenmaddelafullstack@gmail.com
       </motion.p>
       <motion.form 
 
