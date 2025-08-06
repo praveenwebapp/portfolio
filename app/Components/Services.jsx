@@ -49,7 +49,7 @@ initial={{ opacity: 0 }}
        
        
        className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
-I am a Full Stack | Frontend Developer In Berlin , Germany with  7 Years of experaince in multiple companies like United Heath Group | Optum , Tata Consultancy Services( TCS) , Redifcard Technologies .
+I am a Full Stack | Senior Frontend Developer with  7 Years of experaince in multiple companies like United Heath Group | Optum , Tata Consultancy Services( TCS) , Redifcard Technologies .
        </motion.p>
        <motion.div 
 
