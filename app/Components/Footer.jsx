@@ -16,7 +16,7 @@ const Footer = ({isDarkMode}) => {
         <Image src={isDarkMode ? namelogofordark:namelogoforbright} alt="" className="w-36 mx-auto mb-2 " />
         <div className="w-max flex items-center gap-2 mx-auto">
           <Image src={isDarkMode ? emailg : emailg} alt="" className="w-6 " />
-          praveenmaddelafullstack@gmail.com
+          praveenkmaddelafullstack@gmail.com
         </div>
       </div>
 
