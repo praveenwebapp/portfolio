@@ -59,26 +59,21 @@ const About = ({ isDarkMode }) => {
           className="flex-1 w-full"
         >
           <p className="mb font-Ovo">
-            Hi, I’m Praveen Kumar Maddela — a passionate Full Stack Web
-            Developer with over 7 years of experience building dynamic,
-            user-friendly web applications. I come from an engineering
-            background with a Bachelor’s degree in Electronics and Communication
-            (B.Tech in ECE), which has given me a solid foundation in both
-            problem-solving and technical thinking. Over the years, I’ve worked
-            across the full development stack, focusing more on the frontend
-            with technologies like React.js, AngularJS, and React Native for
-            mobile apps, while also building scalable backends using Node.js,
-            Express.js, and MongoDB. I write clean, testable code using
-            TypeScript and JavaScript, and I’m well-versed in automation testing
-            with Jest and Cypress. I follow Scrum methodologies and have a
-            working knowledge of Azure & AWS fundamentals. When it comes to
-            deployment, I’ve used platforms like Vercel, Netlify, and GitHub
-            Pages to ship production-ready apps. I love exploring new tools,
-            staying updated with the latest best practices, and collaborating
-            with teams to build maintainable, high-quality products. Whether
-            it’s designing smooth user experiences or optimizing performance
-            behind the scenes, I’m always excited to take on meaningful projects
-            and keep growing as a developer.
+            I am a Full-Stack Developer with 7 years of experience building scalable
+            web applications using React, Next.js, Node.js, Express, MongoDB,
+            and TypeScript. Skilled in integrating Generative AI and LLMs
+            (OpenAI GPT-4, Anthropic Claude, Google Gemini, Meta Llama 3,
+            Cohere, Mistral, GitHub Copilot, Vertex AI) to deliver AI-assisted
+            features, chatbots, and intelligent automations using RAG,
+            embeddings, and prompt-chaining. Proficient in component-driven
+            architecture, SSR/SSG, and design systems with Next.js and Material
+            UI. Hands-on with Jest, Cypress, and React Testing Library for
+            end-to-end testing. Experienced with AWS (Lambda, S3, EC2, API
+            Gateway) and Azure (App Service, IAM, Key Vault, Cognitive AI
+            Models) for secure deployments and ML integrations. Advocate for
+            clean code, accessibility, and Agile collaboration, with proven
+            ability to ship high-performance, AI-powered applications from
+            concept to production.
           </p>
           <motion.ul
             initial={{ opacity: 0 }}
