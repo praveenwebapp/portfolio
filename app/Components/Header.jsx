@@ -36,7 +36,7 @@ const Header = () => {
         className="text-3xl sm:text-6xl lg:text-[66px] font-Ovo"
       >
         {" "}
-        Full Stack | web & Mobile | Senior Front End Developer
+        Full Stack | web & Mobile | Senior Front End Developer | Generative AI
       </motion.h1>
       <motion.p
         initial={{ opacity: 0 }}
@@ -45,12 +45,16 @@ const Header = () => {
         className=" mx-w-2xl mx-auto font-Ovo"
       >
         {" "}
-        I'm a Full-Stack Developer with 7 years of experience across frontend
-        (React.js, AngularJS, React Native) and backend (Node.js, Express,
-        MongoDB). I work with TypeScript, JavaScript, and write tests using Jest
-        and Cypress. I deploy apps via AWS, Azure, Vercel, and Netlify, and
-        collaborate on UI/UX using Figma and Adobe XD. I follow agile practices
-        and enjoy building clean, scalable, and user-focused applications.
+        Senior Frontend Engineer with ~7 years building scalable,
+        component-driven apps using React.js, Next.js, and TypeScript/JavaScript
+        (ES6+). Skilled in SSR/SSG, responsive UI, and API security across the
+        MERN stack. Strong in AWS (S3, CloudFront, Lambda, API Gateway) and
+        Azure (App Service, IAM, Ai Models) deployments. Deliver CI/CD with GitHub
+        Actions, Jenkins, and Docker. Build test pipelines via Jest, RTL, and
+        Cypress. Applied Generative AI/LLMs (OpenAI, Vertex) for RAG and
+        prompt-engineering in web apps. Advocate for accessibility (WCAG/ARIA)
+        and Web Vitals. Led 2–6 member teams, owning UX-to-prod delivery and
+        shipping React Native apps for iOS/Android.
       </motion.p>
 
       <div className="flex flex-col sm:flex-row items-center gap-4 mt-4 ">
@@ -68,7 +72,7 @@ const Header = () => {
           initial={{ y: 30, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.6, delay: 1 }}
-          href="/Praveen_Kumar_Maddela _Resume.pdf"
+          href="/Resume.pdf"
           download
           className="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white dark:text-black"
         >
