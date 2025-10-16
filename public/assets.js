@@ -19,6 +19,7 @@ import ecomm from '../public/ecomm.png'
 // import insurance from '../public/Insurance.jpeg'
 // import ott from '../public/ott.webp'
 // import bank from '../public/bank.jpg'
+import AI from '../public/ai.png'
 import js from '../public/js.jpeg'
 import react from '../public/react.png'
 import ts from '../public/ts.png'
@@ -96,6 +97,13 @@ export  const serviceData = [
         description:'Web development using MERN involves building full-stack web applications with MongoDB, Express.js, React.js, and Node.js for efficient, scalable development.',
         link:'https://www.mongodb.com/en-us/resources/languages/mern-stack'
     },
+     {
+        icon : AI, 
+       
+        title:'Generative AI & LLM Integration',
+        description:'GGenerative AI & LLM Integration enables building intelligent, context-aware web apps using GPT-4, Claude, Gemini, and Copilot tools, leveraging RAG, embeddings, and prompt-engineering to enhance automation, personalization, and conversational experiences.',
+        link:'https://docs.oracle.com/en-us/iaas/Content/generative-ai/overview.htm',
+    },
     {
         icon :mobapp, 
       
@@ -124,6 +132,8 @@ export  const serviceData = [
         description:'Testing in ReactJS using RTL, Jest, Karma, and Cypress involves unit, integration, and end-to-end testing for ensuring functionality, performance, and cross-browser compatibility.',
         link:'https://talent500.com/blog/front-end-testing-with-tools/',
     }
+,
+   
 
 
 ]
